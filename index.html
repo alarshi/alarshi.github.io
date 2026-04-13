@@ -14,9 +14,9 @@
       <p class="text-xs uppercase tracking-widest text-gray-500">Earth scientist</p>
     </div>
     <nav class="hidden md:flex space-x-6 text-s font-semibold uppercase tracking-wider">
-      <a href="#" class="hover:text-[#6EACDA] transition">Home</a>
-      <a href="#" class="hover:text-[#6EACDA] transition">Research</a>
-      <a href="#" class="hover:text-[#6EACDA] transition">Outreach</a>
+      <a href="index.html" class="hover:text-[#6EACDA] transition">Home</a>
+      <a href="research.html" class="hover:text-[#6EACDA] transition">Research</a>
+      <a href="outreach.html" class="hover:text-[#6EACDA] transition">Outreach</a>
       <a href="./images/Saxena_CV.pdf" class="hover:text-[#6EACDA] transition">CV</a>
     </nav>
   </header>
@@ -50,19 +50,36 @@
           
           <p class="text-gray-400">
             <a href="https://geodynamics.org" class="text-[#6EACDA] hover:text-white hover:underline transition">
-                Computational Infrastructure for Geodynamics (CIG)</a><br>
+                Computational Infrastructure for Geodynamics</a><br>
                 University of California, Davis
           </p>
         </div>
+
+        <div class="flex items-center gap-8">
+          <a href="mailto:ahsaxena@ucdavis.edu" class="group flex items-center gap-2 text-gray-400 hover:text-[#6EACDA] transition-colors">
+              <i class="fa-solid fa-envelope text-xl"></i>
+              <span class="text-s font-medium hidden lg:inline">Email</span>
+          </a>
+          <a href="https://github.com/alarshi" target="_blank" class="group flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+              <i class="fa-brands fa-github text-xl"></i>
+              <span class="text-s font-medium hidden lg:inline">GitHub</span>
+          </a>
+    
+          <a href="https://scholar.google.com/citations?user=h6aJ9K0AAAAJ&hl=en&oi=sra" target="_blank" class="group flex items-center gap-2 text-gray-400 hover:text-[#4285F4] transition-colors">
+              <i class="fa-graduation-cap fa-solid text-xl"></i>
+              <span class="text-s font-medium hidden lg:inline">Scholar</span>
+          </a>
+        </div>
       </div>
 
-      <div class="md:col-span-8 space-y-4 text-base leading-loose text-gray-300 self-start">
+      <div class="md:col-span-8 space-y-3 text-lg leading-normal text-gray-300 self-start">
         <h2 class="text-3xl font-semibold text-[#6EACDA] mt-0">Hello, I am Arushi!</h2>
          <div class="space-y-6 text-justify hyphens-auto">
       <p>
        I am a geophysicist interested in investigating the coupling between deeper mantle flow and observed surface tectonics.
-       For my research, I develop global and regional-scale numerical models that combine available geophysical constraints. I 
-       contribute and use community codes, <a href="https://geodynamics.org/cig/software/aspect/" class="text-[#6EACDA] hover:text-white hover:underline"> ASPECT </a> and 
+       I study this interaction by developing global and regional-scale numerical models that combine all available geophysical constraints 
+       from surface topography to seismic tomography at the core-mantle boundary. I 
+       contribute and use community software, <a href="https://geodynamics.org/cig/software/aspect/" class="text-[#6EACDA] hover:text-white hover:underline"> ASPECT </a> and 
        <a href="https://geodynamicworldbuilder.github.io/" class="text-[#6EACDA] hover:text-white hover:underline"> GeodynamicWorldBuilder</a>, 
        to simulate the physics in my models.  You can find out more about my 
        <a href="#research" class="text-[#6EACDA] hover:text-white hover:underline transition">research projects</a> here.
@@ -70,29 +87,82 @@
       
       <p>
         I am also interested in <a href=#outreach class="text-[#6EACDA] hover:text-white hover:underline transition"> 
-        outreach projects</a> that fosters community building. Currently, I am developing educational modules
-        based on open-source software to illustrate complex Geodynamic concepts using interactive Jupyter notebooks. 
+        outreach projects</a> that fosters community building. Towards this, I am developing educational modules
+        based on open-source software to illustrate complex geodynamic concepts using interactive Jupyter notebooks. 
+      </p>
+
+      <p>
+        When I am not struggling with segmentation "faults", I enjoy my time outdoors or experimenting with my bakes and crafts, or
+        reading a good science-fiction book with a cup of tea!
       </p>
 
     </div>
+  </div>
+ 
+  
+  <div class="md:col-span-12 mt-8">
+    <div class="relative flex items-center py-4">
+      <div class="flex-grow border-t border-gray-700"></div>
+      <span class="px-4 text-3xl font-semibold text-[#6EACDA]">News</span>
+      <div class="flex-grow border-t border-gray-700"></div>
+    </div>
+    
+    <!-- News items list -->
+    <ul class="space-y-4 text-gray-300 list-disc list-inside pl-4 text-lg leading-normal">
 
-    <div class="pt-8 border-t border-gray-700">
-        <div class="flex items-center gap-6">
-            <a href="mailto:ahsaxena@ucdavis.edu" class="group flex items-center gap-2 text-gray-400 hover:text-[#6EACDA] transition-colors">
-                <i class="fa-solid fa-envelope text-xl"></i>
-                <span class="text-s font-medium hidden lg:inline">Email</span>
-            </a>
-            <a href="https://github.com/alarshi" target="_blank" class="group flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <i class="fa-brands fa-github text-xl"></i>
-                <span class="text-s font-medium hidden lg:inline">GitHub</span>
-            </a>
-      
-            <a href="https://scholar.google.com/citations?user=h6aJ9K0AAAAJ&hl=en&oi=sra" target="_blank" class="group flex items-center gap-2 text-gray-400 hover:text-[#4285F4] transition-colors">
-                <i class="fa-graduation-cap fa-solid text-xl"></i>
-                <span class="text-s font-medium hidden lg:inline">Scholar</span>
-            </a>
-        </div>
+        <li>
+          Presented a colloquium tak on "A numerical modeling perspective on how Earth’s surface deformation is controlled by underlying mantle dynamics" 
+          in the department of physics and astronomy at the Sacramento State University (Apr 2026)
+        </li>
+        <li>
+          Led tutorials in ASPECT for the Geodynamics of the Indian plate using First-principle Tools (GIFT) workshop at 
+          the Indian Institute of Science Education and Research, Pune, India (Feb 2026)
+        </li>
+        <li>
+          Presented our work on "Dynamics of Central and Eastern US: Interplay between Local and Far-Field Forces on Surface Deformation"
+          at the AGU Fall Meeting (Dec 2025)
+        </li>
+        <li>
+          Excited to join the ASPECT maintainer team (Oct 2025)
+        </li>
+    </ul>
+  </div>
+
+  <div class="md:col-span-12 mt-8">
+    <div class="relative flex items-center py-4">
+      <div class="flex-grow border-t border-gray-700"></div>
+      <span class="px-4 text-3xl font-semibold text-[#6EACDA]">Gallery</span>
+      <div class="flex-grow border-t border-gray-700"></div>
+    </div>
+    <p class="text-gray-400 text-center mt-6 text-lg italic">
+      At Davis, I have been lucky to explore some beautiful geological sites. Here are some of the recent photos from the field!
+    </p>
+    <!-- Gallery grid with hover overlay -->
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
+    <div class="relative group overflow-hidden rounded-lg">
+      <img src="images/north_table_mountain.jpg" alt="Description" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+      <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+        <span class="text-white text-lg font-medium">Basalt columns in North Table Mountain</span>
       </div>
     </div>
+
+    <div class="relative group overflow-hidden rounded-lg">
+      <img src="images/fieldwork.jpg" alt="Fieldwork" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+      <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+        <span class="text-white text-lg font-medium text-center px-4">Volcanic breccia at Pinnacles National Park </span>
+      </div>
+    </div>
+
+    <div class="relative group overflow-hidden rounded-lg">
+      <img src="images/talk.png" alt="Fieldwork" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+      <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+        <span class="text-white text-lg font-medium text-center px-4">GIFT Workshop </span>
+      </div>
+    </div>
+
+  </div>
+
+
+
 </main>
 
